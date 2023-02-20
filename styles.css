@@ -1,0 +1,108 @@
+.main-tittle{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.tittle{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card-container{
+    width: 400px;
+    border-style: solid;
+    margin: 5px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 0.3rem;
+    background-color: white;
+}
+.info{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+.body-container{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.button{
+    background-color: lightblue;
+    text-decoration: none;
+    padding: 5px 5px;
+    text-align: center;
+    color: black;
+    
+}
+.button:hover{
+    background-color: blueviolet;
+}
+
+.image-default{
+    width: 100%;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer-image{
+    width: 20px;
+    height: 20px;
+}
+
+.footer-images-container{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 5px;
+
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+body{
+    background-color: #DCC7AA;
+}
+
+.footer-link{
+    color: black;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F7882F;
+    width: 300px;
+}
+  
+li{
+    float: left;
+}
+  
+li a{
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    
+}
+  
+li a:hover {
+    background-color: #6B7A8F;
+}
